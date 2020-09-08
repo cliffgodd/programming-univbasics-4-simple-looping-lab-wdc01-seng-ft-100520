@@ -11,9 +11,15 @@ def loop_message_n_times(message, number)
   count = 0
   message = "Hello Red Balloon."
   number = 10
-  while count < number do
+  while count <= number do
     puts message
     count += 1
+    number = 10
+    count = 0
+    message = "Hello World."
+    while count <= number do
+      puts message
+      count += 1
   end
 end
 
