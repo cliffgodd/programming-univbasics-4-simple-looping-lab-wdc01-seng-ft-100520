@@ -17,7 +17,7 @@ def loop_message_n_times(message, number)
   end
   number = 5
   count = 0
-  message = "Hello World."
+  message = "Hello Moon."
   while count < number do
     puts message
     count += 1
