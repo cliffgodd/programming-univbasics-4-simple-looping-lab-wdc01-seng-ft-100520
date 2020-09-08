@@ -29,11 +29,13 @@ def output_array(array)
   count = 0
   while count < 1 do
     puts array
+    count += 1
   end
   array = [5, 4, 3, 2, 1]
   count = 0
   while count < 1 do
     puts array
+    count += 1
   end
 end
 
